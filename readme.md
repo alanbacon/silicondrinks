@@ -36,9 +36,9 @@ docker run -p 80:80 --name drinks_app_container eu.gcr.io/silicon-rhino-drinks/d
 
 # Current Deployment
 
-(http://silicondrinks.alanbacon.dev)[http://silicondrinks.alanbacon.dev]
+[http://silicondrinks.alanbacon.dev](http://silicondrinks.alanbacon.dev)
 or
-(34.89.31.82)[http://34.89.31.82]
+[34.89.31.82](http://34.89.31.82)
 
 # Features Implemented
 
