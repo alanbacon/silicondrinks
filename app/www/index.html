@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Drinks</title>
+</head>
+<body>
+  <div id='react'></div>
+  <script>
+    // reload javascript on refresh everytime, prevents caching
+    // not needed when using webpack dev-server but useful if using a different backend
+    const url="/drinks.bundle.js";
+    const extra="?t=";
+    const randomNum = String((Math.floor(Math.random() * 200000000000000)));
+    const script = document.createElement('script');
+    script.src = url+extra+randomNum;
+    document.head.appendChild(script);
+  </script>
+</body>
+</html>
