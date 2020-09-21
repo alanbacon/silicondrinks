@@ -5,7 +5,7 @@
 ```
 cd ./app
 npm install
-npm run www-build-production
+npm run www-build-devel
 
 cd ..
 docker build -t eu.gcr.io/silicon-rhino-drinks/drinks_app ./
