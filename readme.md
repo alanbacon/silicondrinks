@@ -40,6 +40,7 @@ docker run -p 80:80 --name drinks_app_container eu.gcr.io/silicon-rhino-drinks/d
 or
 [34.89.31.82](http://34.89.31.82)
 
+
 # Features Implemented
 
  - Login as a user (without any authentication)
@@ -56,5 +57,6 @@ The focus was on creating a deployed system capable of leaving comments, in doin
  - database interactions are not very efficient, I usually like to group together requests into a `bulk` command.
  - API endpoints have very little validation.
  - Can only import events from upstream system once because the merge operation for a single event will be quite complicated.
+ - Could have used websockets to update the page automatically when someone else leaves a comment.
  
 
